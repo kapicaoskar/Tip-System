@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0F172A;
+}
+
+
+#container-circlePfp {
+  border-color: rgba(255,255,255,0.40)
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#hider2 {
+  display: none;
+}
+
+
+#textError{
+position: fixed;
+margin-top:835px;
+color: red;
+font-weight: 600;
+font-size: 16px;
+}
+
+#paypal, #blik  , #transfer {
+  border-color: transparent ;
+  transition: 1s;
+}
+
+#paypal:hover , #blik:hover  , #transfer:hover{
+border: 1.9px solid  rgb(57, 46, 255);
+border-collapse: collapse;
+}
+
+#text {
+  color: rgb(255, 255, 255, 0.80)
+}
+#text2 {
+  color: rgb(255, 255, 255, 0.80)
+}
+
+#textError2{
+  position: fixed;
+  margin-top:868px;
+  color: red;
+  font-weight: 600;
+  font-size: 15px;
+  }
+
+
+
+  @media (max-width: 1000px) {
+
+
+    #serviceNamer {
+      font-size: 18px;
+    }
+    #nick {
+      max-width: 310px;
+    }
+    #nicktext {
+      margin-top: 345px;
+      margin-left: -210px;
+      font-size: 13px
+    }
+    #email {
+      max-width: 310px;
+    }
+    #emailtext {
+      margin-top: 445px;
+      position: absolute;
+      font-size: 13px;
+      margin-left: -230px;
+    }
+    #message {
+      max-width: 310px;
+    }
+    #messagetext {
+      margin-top: 545px;
+    position: absolute;
+    margin-left: -230px;
+      font-size: 13px
+    }
+    #container-tips {
+      max-width: 350px;
+      max-height: 800px;
+    }
+    #container-backPfp {
+      max-width: 320px;
+
+      margin-top: 20px;
+    }
+    #container-shopName {
+      max-width: 330px;
+      max-height: 50px;
+      margin-top: -5px;
+      
+    }
+    #nextButton {
+      margin-top: 310px;
+      width: 250px;
+    }
+    #textError{
+      position: fixed;
+      margin-top: 778px;
+      width: 300px;
+    }
+
+
+    /* Druga strona */
+    #price {
+      width: 320px;
+    }
+
+    #priceText {
+      margin-top: 345px;
+      margin-left: -280px;
+      font-size: 13px
+    }
+
+    #payMethod {
+      margin-top: 435px;
+      margin-left: -160px;
+      font-size: 13px
+    }
+
+    #paypal{
+      width: 92px;
+      margin-top: 465px;
+      margin-left: 15px;
+    }
+    #blik{
+      width: 92px;
+      margin-top: 465px;
+      margin-left: 45px;
+    }
+    #transfer{
+      width: 92px;
+      margin-top: 465px;
+
+    }
+
+    #text {
+      font-size: 14px;
+      margin-top: 560px;
+      width: 320px;
+    }
+    #text a  {
+      font-size: 14px;
+    margin-left: 0px;
+    margin-top: 40px;
+    }
+    #text2 {
+      font-size: 14px;
+      margin-top: 630px;
+      width: 320px;
+    }
+
+    #payButton {
+      width: 320px;
+      margin-top: 310px;
+    }
+    #textError2{
+      position: fixed;
+      margin-top: 773px;
+      width: 300px;
+      margin-left: 10px;
+    }
+    #transferIMG {
+      position: absolute;
+    }
+  }
