@@ -1,5 +1,4 @@
 Simple tips system something like https://tipply.pl/
-Preview :
 <br>
 *You need to connect your own API*
 <br>
